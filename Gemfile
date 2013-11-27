@@ -3,6 +3,14 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+group :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+end
+
+gem 'nokogiri'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
